@@ -1,0 +1,13 @@
+int buzzerPin = 9; // Define the pin for the buzzer
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT); // Set the buzzer pin as an output
+}
+
+void loop() {
+  digitalWrite(buzzerPin, HIGH); // Turn the buzzer on
+  delay(1000); // Wait for 1 second
+
+  digitalWrite(buzzerPin, LOW); // Turn the buzzer off
+  delay(1000); // Wait for 1 second
+}
